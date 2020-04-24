@@ -97,6 +97,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -115,6 +118,21 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intro 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intro 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intro 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intro 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background Penguin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
